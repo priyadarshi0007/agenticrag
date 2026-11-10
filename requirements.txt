@@ -1,0 +1,9 @@
+docling
+llama-index
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+chromadb
+pandas
+pdf2image
+llama-index-llms-ollama
+streamlit

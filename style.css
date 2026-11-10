@@ -1,0 +1,83 @@
+/* style.css */
+.stApp {
+    background-color: #0e1117;
+    color: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header-container {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.header-subtitle {
+    color: #8b949e;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+/* Chat Input Styling */
+[data-testid="stChatInput"] textarea {
+    color: #ffffff !important;
+    background-color: #161b22 !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #8b949e !important;
+}
+
+/* Horizontal Pipeline Flow Cards (Uniform Single Color) */
+.pipeline-flow {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.pipeline-step {
+    flex: 1;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.step-number {
+    color: #8b949e;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.step-label {
+    color: #f0f6fc;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+.step-desc {
+    color: #8b949e;
+    font-size: 0.75rem;
+}
+
+/* Uniform Answer Output Box */
+.answer-container {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #c9d1d9;
+}
